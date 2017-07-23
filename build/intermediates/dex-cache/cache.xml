@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-26.0.0-alpha1_18c51a08a74e98cf6c2983f4f6b8e8bd8f136189/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-26.0.0-alpha1_e23da6fcb8040c801c4759384a7ef6ac9182a374/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-26.0.0-alpha1_42da0938ed2da5b447ce981aaf1c0e0f985e1ec9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-26.0.0-alpha1_aa1888b6273d35977276901d6c4ad62f61af0325/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-26.0.0-alpha1_d6c708bd958ac7e33941554812f3f8f650713fc8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="293202a3b1eca0004f6ae1c910d03f41b9b3b07c">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a550a70185e87db09b216bb34623b7816b9cb9e3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-26.0.0-alpha1_eab4dc5700fae677fed23f45753907c28b1799a4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-26.0.0-alpha1_cdb99ec1d9fe4cee6076c1d95e283b012ee22f03/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-26.0.0-alpha1_4717dce91a61166057c7d24d2f7a2e0131a2519b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="19e5764a4a15b983ff327a6bfab54101a30ea0f9">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1a0b92654402decf6e6f167de3622c8bd044f4d4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-26.0.0-alpha1_f3ec818daa47d1ba8bba8518e8931b7387a144d6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/upperskills/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/upperskills/AndroidStudioProjects/Test/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_b1c04363d57c99cf3b8f6e6f3b62f83884b53b6e/classes.dex" />
+    </item>
+
+</items>
