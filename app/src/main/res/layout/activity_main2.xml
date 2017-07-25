@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -73,48 +73,6 @@
         android:background="@drawable/oval"
         />
 
-    <RadioGroup
-
-        android:background="@drawable/oval"
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:layout_below="@+id/imageView"
-        android:layout_marginTop="205dp"
-        android:id="@+id/radioGroup"
-        android:layout_alignStart="@+id/dateVoiture"
-        android:layout_alignLeft="@+id/dateVoiture"
-        android:layout_alignEnd="@+id/email"
-        android:layout_alignRight="@+id/email"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <RadioButton
-
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/essence"
-            android:id="@+id/essence"
-            android:paddingLeft="10dp"
-            android:paddingRight="50dp"
-            android:layout_gravity="center_horizontal"
-            android:checked="true"
-            android:textSize="30dp" />
-
-        <RadioButton
-
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/diesel"
-            android:id="@+id/diesel"
-            android:layout_gravity="center_horizontal"
-            android:checked="false"
-            android:textSize="30dp"
-            android:layout_weight="0.13" />
-
-    </RadioGroup>
-
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
@@ -170,6 +128,43 @@
         android:background="@drawable/oval"
         />
 
+    <RadioButton
+
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diesel"
+        android:id="@+id/diesel"
+        android:layout_gravity="right|center_vertical"
+        android:checked="false"
+        android:textSize="30dp"
+        android:layout_weight="0.13" />
+
+    <RadioButton
+
+        android:textStyle="bold"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/essence"
+        android:id="@+id/essence"
+        android:paddingLeft="10dp"
+        android:paddingRight="50dp"
+        android:layout_gravity="left|center_vertical"
+        android:checked="true"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/precedent"
+        android:background="@drawable/previous"
+        android:padding="40dp"
+        android:layout_alignTop="@+id/terminer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="left|bottom" />
+
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -180,16 +175,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:padding="40dp"
-        android:layout_marginRight="20dp"/>
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/precedent"
-        android:background="@drawable/previous"
-        android:padding="40dp"
-        android:layout_alignTop="@+id/terminer"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="20dp"/>
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right|bottom" />
 
-</RelativeLayout>
+</FrameLayout>
