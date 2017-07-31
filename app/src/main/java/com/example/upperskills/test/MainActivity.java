@@ -11,7 +11,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-
+import com.facebook.FacebookSdk;
 import java.io.UnsupportedEncodingException;
 import java.util.Calendar;
 import android.util.Log;
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity  {
     private static final String Tag = "MainActivity";
     private TextView dateDeNaissance;
     private DatePickerDialog.OnDateSetListener mDateSetListener;
-    private  TextView nom,prenom ;
+    private  TextView nom,prenom,cin,email,adresse ;
     final Context context = this;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,19 +52,26 @@ public class MainActivity extends AppCompatActivity  {
         //region button_suivant
         nom =(TextView) findViewById(R.id.nom);
         prenom=(TextView) findViewById(R.id.prenom);
+        dateDeNaissance =(TextView) findViewById(R.id.date);
+        cin= (TextView) findViewById(R.id.cin);
+        email=(TextView) findViewById(R.id.email);
+        adresse =(TextView) findViewById(R.id.adresse);
+
         ImageButton suivantButton = (ImageButton) findViewById(R.id.suivant);
 
         suivantButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-               // startActivity(new Intent(MainActivity.this, Main2Activity.class));
+               startActivity(new Intent(MainActivity.this, Main2Activity.class));
 
-                Log.d("nom "," "+nom.getText().toString());
+              /*  Log.d("nom "," "+nom.getText().toString());
                 try {
-                    sendPostReq(nom.getText().toString(), prenom.getText().toString());
+                    sendPostReq(nom.getText().toString(), prenom.getText().toString(), dateDeNaissance.getText().toString()
+                            ,email.getText().toString(),cin.getText().toString(),adresse.getText().toString());
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-            }
+            */}
         });
 
         //endregion
@@ -108,17 +115,18 @@ public class MainActivity extends AppCompatActivity  {
 
         }
 
-    private void sendPostReq(final String name, String prenom) throws JSONException {
+    private void sendPostReq(final String name, String prenom, String date_de_naissance, String email, String cin, String adresse
+    ) throws JSONException {
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         String URL = "http://10.0.2.2:3000/name";
         JSONObject jsonBody = new JSONObject();
         jsonBody.put("nom", name);
         jsonBody.put("prenom",prenom);
-       /* jsonBody.put("date_de_naissance");
-        jsonBody.put("telephone");
-        jsonBody.put("email");
-        jsonBody.put("cin");
-        jsonBody.put("adresse");*/
+        jsonBody.put("date_de_naissance",date_de_naissance);
+        //jsonBody.put("telephone");
+        jsonBody.put("email",email);
+        jsonBody.put("cin",cin);
+        jsonBody.put("adresse",adresse);
         final String requestBody = jsonBody.toString();
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {

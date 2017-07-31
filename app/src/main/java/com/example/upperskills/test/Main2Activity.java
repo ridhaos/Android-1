@@ -8,8 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.ImageButton;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.util.Calendar;
@@ -23,7 +25,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main3);
 
         //region button_suivant
 
@@ -71,6 +73,15 @@ public class Main2Activity extends AppCompatActivity {
                 //Log.d(Tag, "a="+nom.getText());
             }
         };
+
+/////////spinner
+
+        String[] country = { "Shell ", "OilLibya", "Agil", "StartOil", "Total",  };
+        Spinner spin = (Spinner) findViewById(R.id.spinner1);
+        ArrayAdapter aa = new ArrayAdapter(this,android.R.layout.simple_spinner_item,country);
+        aa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spin.setAdapter(aa);
+
 
 //endregion
     }

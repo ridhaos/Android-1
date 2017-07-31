@@ -2,4 +2,7 @@
     <string name="app_name">Test</string>
     <string name="essence">Essence</string>
     <string name="diesel">Diesel</string>
+    <string name="facebook_app_id">121947245096082</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">EAABu6Q45rJIBADq7lyOfZBZAaymCKuZBeuiUTz9v7y2dT9LRa9N5gfisoyWroXxAFyyDTw193Huqp0uM7vq0IEPB8xoZAgxR7hR6154LGA7dVSZC1hUZAQ8Q3RKzZAAwCNKVWFxnzwi5O1klM7ZC1L8kzULhn5oOquPbSjElzpHg7e27zouEY2ZCarvNMip8Kh50ZD</string>
+
 </resources>
